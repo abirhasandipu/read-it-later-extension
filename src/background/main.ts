@@ -17,3 +17,9 @@ function handleTabUpdate(
 ) {
 	changeInfo.url && console.log(changeInfo.url); //sometimes the url is undefined
 }
+
+// chrome.action.onClicked.addListener(handleExtensionIconClick)
+
+// function handleExtensionIconClick(tab: chrome.tabs.Tab){
+// 	console.log("from click", tab)
+// }
